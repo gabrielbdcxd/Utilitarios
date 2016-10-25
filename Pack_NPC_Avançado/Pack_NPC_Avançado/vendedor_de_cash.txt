@@ -1,0 +1,29 @@
+-	cashshop	cs1	-1,5451:35000,5452:30000,5453:25000,5518:25000,5374:19000,5013:19000,5137:19000,5432:19000,5306:19000,5108:19000
+
+-	cashshop	cs2	-1,5377:18000,5361:18000,5107:18000,5463:18000,5846:18000,5574:18000
+
+-	cashshop	cs3	-1,5800:18000,5288:18000,5325:18000,5401:18000,2202:18000
+
+-	cashshop	cs4	-1,2630:12500,2629:12500
+
+-	cashshop	cs5	-1,1084:12500,20639:12500,20640:12500,20641:12500
+
+-	cashshop	cs6	-1,2383:12500,2541:12500,2132:12500
+
+
+prontera,164,175,3	script	Donates RagnaPlay!	873,{
+OnInit:
+waitingroom "Donates RagnaPlay!", 0;
+
+	switch(select("- Hat","- Baixo","- Meio","- Acessorios","- Vip","- Itens Diversos","- Fechar")){
+	close2;
+		case 1: callshop "cs1",0; end;
+		case 2: callshop "cs2",0; end;
+		case 3: callshop "cs3",0; end;
+		case 4: callshop "cs4",0; end;
+		case 5: callshop "cs5",0; end;
+		case 6: callshop "cs6",0; end;
+		case 7: end;
+	
+	}
+}

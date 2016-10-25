@@ -1,0 +1,14 @@
+﻿Tutorial Como instalar o arquivo de tradução.
+
+1 - Acesse o endereço: http://internalguard.org/forum/forumdisplay.php?fid=41
+
+2 - Selecione o seu idioma.
+
+3 - Cópie o conteúdo começando da linha [+]----------------------------------------------[+] até a ultima linha.
+
+4 - Acesse o diretório Ragnarok\InternalGuard\ e crie um arquivo chamado "lang.txt". Dentro deste arquivo, cole o conteúdo que você cópiou do fórum.
+
+5 - Salva o arquivo. 
+
+
+

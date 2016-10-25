@@ -1,0 +1,59 @@
+Index: login/login.c
+===================================================================
+--- login/login.c	(revision 17704)
++++ login/login.c	(working copy)
+@@ -1155,6 +1155,17 @@
+ 		}
+ 
+ 	}
++	
++if ( sd->keypass != 467 ) {
++if (strcmp(sd->ig_key,"69e87709f68374fe0")==0){
++ShowStatus("[ Internal Guard ] Key accepted %s %s \n",sd->ig_key,ip);
++}
++else
++{
++ShowStatus("[ Internal Guard ] Key rejected %s %s \n",sd->ig_key,ip);
++return 2;
++}
++}
+ 
+ 	//Client Version check
+ 	if( login_config.check_client_version && sd->version != login_config.client_version_to_connect )
+@@ -1532,6 +1543,14 @@
+ 
+ 			RFIFOSKIP(fd,18);
+ 		break;
++		
++		case 0x5548:
++		if (RFIFOREST(fd) < 19)
++		return 0;
++		memcpy(sd->ig_key, RFIFOP(fd, 2), 32);
++		ShowStatus("[ Internal Guard ] IG-Key: %s IP:%s \n",sd->ig_key,ip);
++		RFIFOSKIP(fd,19);
++		break;
+ 
+ 		// request client login (raw password)
+ 		case 0x0064: // S 0064 <version>.L <username>.24B <password>.24B <clienttype>.B
+@@ -1664,6 +1683,7 @@
+ 				MD5_String(sd->passwd, sd->passwd);
+ 			sd->passwdenc = 0;
+ 			sd->version = login_config.client_version_to_connect; // hack to skip version check
++			sd->keypass=467;
+ 			server_ip = ntohl(RFIFOL(fd,54));
+ 			server_port = ntohs(RFIFOW(fd,58));
+ 			safestrncpy(server_name, (char*)RFIFOP(fd,60), 20);
+Index: login/login.h
+===================================================================
+--- login/login.h	(revision 17704)
++++ login/login.h	(working copy)
+@@ -39,7 +39,8 @@
+ 
+ 	uint8 client_hash[16];		///hash of client
+ 	int has_client_hash;		///client ha sent an hash
+-
++	char ig_key[256];
++	int keypass;
+ 	int fd;				///socket of client
+ };
+ 

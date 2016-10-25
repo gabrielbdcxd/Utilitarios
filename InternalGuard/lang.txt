@@ -1,0 +1,43 @@
+[+]-----------------------------------------------------------------------------------------------[+]
+ |          www.internalguard.org                                                                  |
+ |          PT-Br language file by Kaju                                                            |
+ |                                                                                                 |
+ |          Internal Guard 3.8                                                                     |
+ |                                                                                                 |
+ |                                                                                                 |
+ |                                                                                                 |
+ |                                                                                                 |                             
+[+]-----------------------------------------------------------------------------------------------[+]
+Inicializando...
+Verificando lista negra....
+Completo!
+Carregando configurações...
+Verificando arquivos...
+Inicializando jogo...
+O Internal Guard está desatualizado.
+Atualize seu patch.
+È necessário executar como admin!
+Desculpe, mas você não pode usar ferramentas debugger / virtualização neste servidor.
+Finalizando o jogo.
+Arquivo não encontrado:
+Reinstale e atualize o patch!
+Ctrl + C / Ctrl + V para cópiar.
+Arquivo modificado / desatualizado detactado:
+Arquivo ilegal detectado:
+Game.internalguard não encontrado!
+Não foi possível se conectar ao servidor!
+Verifique a sua conexão com a internet.
+Você está banido!
+Data:
+Motivo:
+O administrador deste servidor permite apenas a utilização de %d instância(s) ao mesmo tempo.
+Um programa ilegal foi detectado! 
+Por favor finalize qualquer (Auto, cheat, crack, Debug program)
+e reinicie o jogo.
+Ferramenta:
+Código:
+Localização:
+\InternalGuard\Gcore.dll não encontrado!
+Não foi possível acessar a lista de banidos! MySQL error?
+Ocorreu um erro ao baixar os hashs! verifique o seu hashs.php.
+Ocorreu um erro ao tentar acessar a configuração geral! Verifique o seu geral.php, pode existir um erro!

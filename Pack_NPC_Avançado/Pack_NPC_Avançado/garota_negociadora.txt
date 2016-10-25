@@ -1,0 +1,18 @@
+prontera,143,194,5	script	Garota Negociante	90,{
+
+	mes "Olá, aqui você pode alugar um carrinho, peco-peco ou falção dependendo de sua profissão.";
+	mes "[Garota Negociante]";
+	next;
+	mes "[Garota Negociante]";
+	if ((BaseClass == 5 || Class == 23) && !checkcart() && getskilllv(39)) setcart;
+	else if (BaseClass == 1 && !checkriding() && getskilllv(63)) setriding;
+	else if (BaseClass == 3 && !checkfalcon() && getskilllv(127)) setfalcon;
+	else
+	{
+		mes "Desculpe, mas não posso ajudar você.";
+		mes "Verifique se você já possui a habilidade necessária ou se já esta com algo alugado!";
+		close;
+	}
+	mes "Aqui esta, faça bom proveito!";
+	close;
+}

@@ -1,0 +1,73 @@
+LordPE RoyalTS - 1.31 (25th March 2002)
+---------------------------------------
+- LordPE is now freeware
+- LDS 0.2: - LDS_FULL_DUMP_EX structure added
+- added file icons in task viewer
+- bugfixes: - no endless loop for 0-item relocation blocks anymore
+
+
+LordPE Gathering - 1.3 (24th February 2002)
+-------------------------------------------
+- plugin interface added
+- Region Dumper (idea brutally stolen from MackT, sorry :-)
+- BoundImport viewer added
+- Debug Directory viewer added
+- Relocation viewer shows much more information
+- ImportTable rebuilder can handle forwarded imports by Ordinal or API Name now
+- new rebuilding options: - Bind Imports
+                          - Change ImageBase
+- new options: - Full dump: force RAW mode
+- now using 16Edit FX and Realign.dll 1.5
+- bugfixes: - section truncation didn't work at least on NT5
+            - section name handling recoded/improved slightly at many locations
+            - ImportTable viewer: status line should be set always now
+            - routine which fixes the section table of dumped PE images does now
+              update the FileAlignment and SizeOfHeaders, too
+            - links in the about dialog should work properly again
+- minor modifications
+
+
+LordPE Armageddon - 1.2 (26th December 2001)
+--------------------------------------------
+- GUI updated (-> fat flat style)
+- HexEditor added (in SectionTable Viewer + FLC + Resource Directory Viewer)
+- Subsystem decoder added
+- TimeDateStamp converter added (TimeDateStamp <-> time/date)
+- Process prioritiy modifiable
+- Splitter slightly modifed and bugfixes (thx MackT)
+- STR+Z shortcut for Hex Editboxes added
+- compatibility of the header enlarger increased
+- minor bugfixes
+- the price for the full version was increased to $25
+- documentation updated
+
+
+LordPE FX b - 1.11 (18th September 2001)
+----------------------------------------
+- Bugfix: "paste header from disk" works now correctly for modules, too...nice
+- Bugfix: Demo doesn't show "Thank you vey much for purchasing this product !" any
+          longer in the About-box ;P...ups...
+- minor bugfixes
+
+
+LordPE FX - 1.1 (18th June 2001)
+--------------------------------
+- ExportTable viewer: - edit Export Table
+                      - edit Exported items
+- ImportTable viewer: - edit thunks of ImageImportDescriptors
+                      - refresh thunks
+- Compare PE files
+- ImportTable rebuilder
+- Split/Unsplit
+- Relocation viewer
+- Enlarge header
+- Rebuilder: - status window
+- SizeOfOptionalHeader editable
+- New option: - Always on top
+              - Restore last directory on startup
+- Hex Editboxes support now copy, cut and paste actions
+- Bugfixes: offset to section table is now calculated dynamically
+
+
+LordPE 1.0 (26th April 2001)
+----------------------------

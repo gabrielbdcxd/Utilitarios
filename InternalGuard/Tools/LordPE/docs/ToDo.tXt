@@ -1,0 +1,7 @@
+- PE structure listers
+- enhance resource viewing methods
+- DelayImport viewer
+- COM Directory viewer
+- LoadConfig Directory viewer
+- support for PE32+ (much work)
+- ability to modify TLS table elements
