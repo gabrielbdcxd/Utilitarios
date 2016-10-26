@@ -1,13 +1,16 @@
-prontera,156,185,4	script	Curandeira		936,{
+prontera,162,193,4	script	Curandeira		936,{
  
-set .@Price, 0; // Preço a ser cobrado, 0 para desabilitar esta função.
-set .@Delay, 1; // Tempo em segundos de restrição de uso após uso.
+set .@Price, 5000; // Preço a ser cobrado, 0 para desabilitar esta função.
+set .@Delay, 60; // Tempo em segundos de restrição de uso após uso.
 set .@Buffs, 1; // Habilitar Buffs? 0: Não / 1: Sim
  
 if( healer_delay > gettimetick(2) )
 dispbottom "Você deve aguardar " + .@Delay + " segundos para utilizar a cura novamente!";
-else if( .@Price && Zeny < .@Price )
-dispbottom "Você não tem " + .@Price + " Zenys para utilizar a cura!";
+else if( .@Price && Zeny < .@Price ){
+dispbottom "Voc� n�o tem " + .@Price + " Zenys para pagar minhas ben��os!";
+        percentheal 70, 60;
+		}
+
 else {
 if( .@Buffs )
         {
@@ -19,16 +22,12 @@ if( .@Buffs )
 	sc_start SC_FOOD_INT,240000,10;
 	sc_start SC_FOOD_DEX,240000,10;
 	sc_start SC_FOOD_LUK,240000,10;
-	atcommand "@repairall";
         }
         specialeffect2 313;
         percentheal 100, 100; 
 if( .@Price ) set Zeny, Zeny - .@Price;
  
 set healer_delay, gettimetick(2)+.@Delay;
-
-atcommand "@repairall";
-
 
 }
 end;
