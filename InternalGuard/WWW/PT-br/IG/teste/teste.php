@@ -3,7 +3,7 @@
 $HOST = "127.0.0.1";
 $USER = "root";
 $PASSWORD = "vertrigo";
-$DBNAME = "ig";
+$DBNAME = "bra_internalguard";
 ############################################################
 
 

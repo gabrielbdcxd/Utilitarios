@@ -5,14 +5,14 @@ $VERSAO="3.8";
 $DB_VERSAO="73.0.0.0";
 
 # Mensagem que é exibida perto do relégio / System tray message
-$MENSAGEM1="Internal Guard 3.7 - Hacking Prevent System";
-$MENSAGEM2="<Sua mensagem aqui 1>";
-$MENSAGEM3="<Sua mensagem aqui 2>";
+$MENSAGEM1="Internal Guard 3.8";
+$MENSAGEM2="";
+$MENSAGEM3="";
 
 # Ativar systemtry mensagem?
 # 0 = Desativar
 # 1 = Ativar
-$SYSTEMTRYMSG='1';
+$SYSTEMTRYMSG='0';
 
 # Número máximo de janelas liberadas por pc?
 $MAX_CLIENT_PER_PC="2";

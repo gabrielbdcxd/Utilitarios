@@ -7,41 +7,41 @@
 # Ex2: Neoncube.exe
 # Ex2: MeuHexed.exe
 
-$Arquivo01_nome='Internal.grf';
-$Arquivo01_hash='3773041016';
+$Arquivo01_nome='InternalGuard\Gcore.dll';
+$Arquivo01_hash='4105813760';
 
-$Arquivo02_nome='InternalGuard\Gcore.dll';
-$Arquivo02_hash='1666548893';
+$Arquivo02_nome='InternalGuard\GKey.dll';
+$Arquivo02_hash='2794221910';
 
-$Arquivo03_nome='InternalGuard\main.patch';
-$Arquivo03_hash='3661281066';
+$Arquivo03_nome='InternalGuard\IG.dll';
+$Arquivo03_hash='6059997';
 
-$Arquivo04_nome='InternalGuard\GKey.dll';
-$Arquivo04_hash='2794221910';
+$Arquivo04_nome='InternalGuard\InternalGuard.bin';
+$Arquivo04_hash='2689503478';
 
-$Arquivo05_nome='InternalGuard\IG.dll';
-$Arquivo05_hash='3822481166';
+$Arquivo05_nome='InternalGuard\InternalGuard.sys';
+$Arquivo05_hash='2110506217';
 
-$Arquivo06_nome='InternalGuard.exe';
-$Arquivo06_hash='2771400191';
+$Arquivo06_nome='InternalGuard\Updater.internalguard';
+$Arquivo06_hash='2322444852';
 
-$Arquivo07_nome='InternalGuard\InternalGuard.bin';
-$Arquivo07_hash='258367436';
+$Arquivo07_nome='InternalGuard\report.dll';
+$Arquivo07_hash='264962973';
 
-$Arquivo08_nome='InternalGuard\InternalGuard.sys';
-$Arquivo08_hash='2110506217';
+$Arquivo08_nome='InternalGuard\main.patch';
+$Arquivo08_hash='1807836874';
 
-$Arquivo09_nome='';
-$Arquivo09_hash='';
+$Arquivo09_nome='Game.Internalguard';
+$Arquivo09_hash='273946096';
 
-$Arquivo10_nome='';
-$Arquivo10_hash='';
+$Arquivo10_nome='Ragnarok Online.exe';
+$Arquivo10_hash='3792585378';
 
-$Arquivo11_nome='';
-$Arquivo11_hash='';
+$Arquivo11_nome='cdata.grf';
+$Arquivo11_hash='590153084';
 
-$Arquivo12_nome='';
-$Arquivo12_hash='';
+$Arquivo12_nome='cps.dll';
+$Arquivo12_hash='2429467238';
 
 $Arquivo13_nome='';
 $Arquivo13_hash='';
