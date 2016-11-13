@@ -1,10 +1,14 @@
-Make Character
 Skill Timer Hour
 Skill Timer Minutes
 Skill Timer Seconds
-Npc Use Warp Service
-Bifrost message
+Item Inventory
+Do you want to cancel navigation?
+Kafra
+failed message
+Advice
 Monster
+Forbidden Access User Account
+Permantly banned User Account connected
 Hours left to use
 Minutes till end
 Premium
@@ -27,12 +31,22 @@ User is not invited
 Students now have full access
 Waiting rank
 Wait Time is
+Point
+Rank
+Rank Board
 Not reverse the effect of the miracle of the sun, the moon and the stars will no occur
+Station does not prohibite item trades
+Game Command
+Game System
+Game Settings
 Opening the item attrutable to aquire items in character bank (Storage Locked) is
 Meet the characters that use this please check destination
 Will you open the box?
 Counterfeit File was detected
+Sex Change Window
+Enter Character Name
 Character name does not match
+Make Character
 The goal is here
 Goal is the same location
 Please select and move to area
@@ -82,8 +96,12 @@ Class Category of output types
 Map Location
 Jenny basic Command
 Map Name
+Navigation Help
 Target
 Failed to read information
+Help
+External route information file read
+Navigation Interface
 Minimap Show Location
 Minimap Zoom In
 Minimap Zoom Out
@@ -95,4 +113,5 @@ Minimap World View
 2015-10-01 Char Creation
 2015-10-01 Char Creation
 2015-10-01 Char Creation
+Translate Message Box 2015
 Translate Message Box 2015

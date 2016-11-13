@@ -15,7 +15,7 @@ $MENSAGEM3="";
 $SYSTEMTRYMSG='0';
 
 # Número máximo de janelas liberadas por pc?
-$MAX_CLIENT_PER_PC="2";
+$MAX_CLIENT_PER_PC="1";
 
 
 # Depuração de pacotes
