@@ -1,4 +1,3 @@
-8 Custom Window Title
 9 Disable 1rag1 type parameters (Recommended)
 13 Disable Ragexe Filename Check (Recommended)
 15 Disable HShield (Recommended)
@@ -19,6 +18,7 @@
 46 Use Normal Guild Brackets (Recommended)
 47 Use Ragnarok Icon
 48 Use Plain Text Descriptions (Recommended)
+49 Enable Multiple GRFs (Recommended)
 50 Skip License Screen
 53 Use Ascii on All LangTypes (Recommended)
 61 Disable Packet Encryption
@@ -32,7 +32,5 @@
 88 Allow space in guild name
 90 Enable DNS Support (Recommended)
 97 Cancel to Login Window (Recommended)
-100 Disable Multiple Windows
-200 Enable Multiple GRFs - Embedded
 213 Disable Help Message on Login (Recommended)
 219 Always Show Resurrection Button
