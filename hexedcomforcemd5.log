@@ -30,8 +30,12 @@
 84 Remove Serial Display (Recommended)
 88 Allow space in guild name
 90 Enable DNS Support (Recommended)
+91 Disconnect to Login Window
 97 Cancel to Login Window (Recommended)
 100 Disable Multiple Windows
+105 Hide Nav Button
+106 Hide BG Button
+108 Hide Booking Button
 200 Enable Multiple GRFs - Embedded
 213 Disable Help Message on Login (Recommended)
 219 Always Show Resurrection Button
