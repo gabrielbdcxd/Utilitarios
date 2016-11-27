@@ -1,5 +1,6 @@
 6 Force Send Client Hash Packet
 8 Custom Window Title
+9 Disable 1rag1 type parameters (Recommended)
 13 Disable Ragexe Filename Check (Recommended)
 15 Disable HShield (Recommended)
 17 Enable Official Custom Fonts
@@ -21,7 +22,6 @@
 49 Enable Multiple GRFs (Recommended)
 50 Skip License Screen
 53 Use Ascii on All LangTypes (Recommended)
-61 Disable Packet Encryption
 63 Use Official Cloth Palettes
 64 @ Bug Fix (Recommended)
 71 Ignore Resource Errors
